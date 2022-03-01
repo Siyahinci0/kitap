@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>100 Kitap</title>
+    </head>
+    
+<link rel="stylesheet" href="kitap.css">
+<script src="islemler.js"></script>
+<body>
+
+<button id="islem" onclick="toplama(12,9)">islem yap</button></br></br></br></br>
+
+
+
+<p id="islemsonucu"></p>
+
+<table style="width:100%">
+  <tr>
+    <th style="background-color: yellow;">Kitap Adı 1</th>
+    <th>Yazar Adı</th>
+    <th>Sayfa Sayısı</th>
+    <th>Yayınevi</th>
+    <th>Puan</th>
+  </tr>
+  <tr id="ilk">
+    <td>Alis Harikalar Diyarında</td>
+    <td>Levis Corrol</td>
+    <td>96 Sayfa</td>
+    <td>Epsilon</td>
+    <td>9</td>
+  </tr>
+  <tr class="grisatir">
+    <td>Altın Işık</td>
+    <td>Ziya Gökalp</td>
+    <td>63 sayfa</td>
+    <td>Bilgi</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Andersen Masalları</td>
+    <td>Andersen</td>
+    <td>152 sayfa</td>
+    <td>Remzi</td>
+    <td>5</td>
+  </tr>
+  <tr class="grisatir">
+    <td>Beyaz Yele</td>
+    <td>Rene Guillot</td>
+    <td>80 sayfa</td>
+    <td>Can</td>
+    <td>6</td>
+   
+  </tr>
+  <tr>
+    <td>Çehov’dan Hikayeler</td>
+    <td>Anton Çehov</td>
+    <td>96 sayfa</td>
+    <td>Elips</td>
+    <td>10</td>
+  </tr>
+  <tr class="grisatir">
+    <td>Çocuk Kalbi</td>
+    <td>Edmondo De Amicis</td>
+    <td>80 sayfa</td>
+    <td>Tema</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Dede Korkut Masalları</td>
+    <td>Dede Korkut</td>
+    <td>111 sayfa</td>
+    <td>Babıali</td>
+    <td>10</td>
+  </tr>
+  <tr class="grisatir">
+    <td>Define Adası</td>
+    <td>Robert L. Stevenson</td>
+    <td>120 sayfa</td>
+    <td>Kültür</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Değirmenimden Mektuplar</td>
+    <td>Alfonse Dandet</td>
+    <td>80 sayfa</td>
+    <td>Can</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Ezop Masalları</td>
+    <td>Aisopos</td>
+    <td>160 Sayfa</td>
+    <td>Can Çocuk</td>
+    <td>10</td>
+   
+  </tr>
+  <tr>
+    <td>Falaka ve Gecelerim</td>
+    <td>Ahmet Rasim</td>
+    <td>64 sayfa</td>
+    <td>Bilgi</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Guliver’in Gezileri</td>
+    <td>Jonattan Swift</td>
+    <td>94 Sayfa</td>
+    <td>Parıltı</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Heidi</td>
+    <td>Johanna Spyri</td>
+    <td>128 Sayfa</td>
+    <td>Arkadaş Yayıncılık</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>İnsan Ne İle Yaşar</td>
+    <td>Tolstoy</td>
+    <td>80 Sayfa</td>
+    <td>Say</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Keloğlan Masalları</td>
+    <td>Derleme</td>
+    <td>80 Sayfa</td>
+    <td>İskele</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>La Fontaın Masalları</td>
+    <td>La Fontain</td>
+    <td>64 Sayfa</td>
+    <td>Doğan ve Egmont</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Mesnevi’den Seçmeler</td>
+    <td>Mevlana</td>
+    <td>144 Sayfa</td>
+    <td>Beyan</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Mutlu Prens</td>
+    <td>Oscar Wilde</td>
+    <td>96 Sayfa</td>
+    <td>Kültür</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Oliver Twist</td>
+    <td>Charles Dickens</td>
+    <td>96 Sayfa</td>
+    <td>Can</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Ömer’in Çocukluğu</td>
+    <td>Muallim Naci</td>
+    <td>62 Sayfa</td>
+    <td>Turkuvaz Kitap</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Peter Pan</td>
+    <td>J.M.Barrie</td>
+    <td>144 sayfa</td>
+    <td>Sıfır 6 Kitap</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Pinokyo</td>
+    <td>C.Collodi</td>
+    <td>142 sayfa</td>
+    <td>İskele</td>
+    <td>10</td>
+  </tr>
+
+  <tr>
+    <td>Pollyanna</td>
+    <td>Eleanor H. Porter</td>
+    <td>128 Sayfa</td>
+    <td>Sıfır 6 Kitap</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Robin Hood</td>
+    <td>Howard Pyle</td>
+    <td>80 sayfa</td>
+    <td>Arkadaş</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>80 Günde Devri Alem</td>
+    <td>Jules Verne</td>
+    <td>80 sayfa</td>
+    <td>Yabancı</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Şermin</td>
+    <td>Tevfik Fikret</td>
+    <td>79 Sayfa</td>
+    <td>Turkuvaz Kitap</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Tekerlemeler</td>
+    <td>Derleme</td>
+    <td>64 Sayfa</td>
+    <td>Karanfil</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Tiryaki Sözleri</td>
+    <td>Cenap Şehabettin</td>
+    <td>80 Sayfa</td>
+    <td>Dekalog</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Tom Sawyer</td>
+    <td>Mark Twain</td>
+    <td>128 sayfa</td>
+    <td>Dorlion</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Üç Silahşörler</td>
+    <td>Alexandre Dumas</td>
+    <td>80 Sayfa</td>
+    <td>Alfa</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Vatan Yahut Silistre</td>
+    <td>Namık Kemal</td>
+    <td>80 Sayfa</td>
+    <td>Say</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Yalnız Efe</td>
+    <td>Ömer Seyfettin</td>
+    <td>127 Sayfa</td>
+    <td>Beyan</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Yaşlı Adam ve Deniz</td>
+    <td>Ernest Hemingway</td>
+    <td>115 Sayfa</td>
+    <td>Bilgi</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Gulyabani</td>
+    <td>Hüseyin Rahmi Gürpınar</td>
+    <td>116 Sayfa</td>
+    <td>Zeplin</td>
+    <td>9</td>
+  </tr>
+  
+  <tr>
+    <td>Hep O Şarkı</td>
+    <td>Yakup Kadri Karaosmanoğlu</td>
+    <td>165 Sayfa</td>
+    <td>İletişim</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Peri Kızı ile Çoban Hikayesi</td>
+    <td>Orhan Seyfi Orhon</td>
+    <td>112 Sayfa</td>
+    <td>Can</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Uluç Reis</td>
+    <td>Halikarnas Balıkçısı</td>
+    <td>125 Sayfa</td>
+    <td>Bilgi</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Damla Damla</td>
+    <td>Ruşen Eşref Ünaydın</td>
+    <td>110 Sayfa</td>
+    <td>Mola</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Havaya Uçan</td>
+    <td>Peyami Safa</td>
+    <td>145 Sayfa</td>
+    <td>Artshop</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Sevdalı Bulut</td>
+    <td>Nazım Hikmet</td>
+    <td>145 Sayfa</td>
+    <td>Yapı Kredi</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Eşref Saati</td>
+    <td>Şevket Rado</td>
+    <td>162 Sayfa</td>
+    <td>Bilge</td>
+    <td>8</td>
+  </tr>
+  <tr>
+      <td>İnci’nin Maceraları</td>
+      <td>Orhan Kemal</td>
+      <td>125 Sayfa</td>
+      <td>Everest</td>
+      <td>6</td>
+  </tr>
+  
+<tr>
+    <td>Tiryaki Sözleri</td>
+    <td>Cenap Şahabettin</td>
+    <td>112 Sayfa</td>
+    <td>Dekalog</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Osmancık</td>
+    <td>Tarık Buğra</td>
+    <td>108 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Falaka</td>
+    <td>Ahmet Rasim</td>
+    <td>170 Sayfa</td>
+    <td>Akçağ</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Bir Gemi Yelken Açtı</td>
+    <td>Ali Mümtaz Arolat</td>
+    <td>102 Sayfa</td>
+    <td>Kitantik</td>
+    <td>4</td>
+</tr>
+<tr>
+    <td>Üç Minik Serçem</td>
+    <td>Necati Cumalı</td>
+    <td>145 Sayfa</td>
+    <td>Cumhuriyet</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Memleket Şiirleri Antolojisi</td>
+    <td>Osman Atilla</td>
+    <td>88 Sayfa</td>
+    <td>Elips</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>Ülkemin Efsaneleri</td>
+    <td>İbrahim Zeki Burdurlu</td>
+    <td>123 Sayfa</td>
+    <td>Tudem</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>Aldı Sözü Anadolu</td>
+    <td>Mehmet Önder</td>
+    <td>158 Sayfa</td>
+    <td>Elips</td>
+    <td>6</td>
+</tr>
+
+<tr>
+    <td>Miskinler Tekkesi</td>
+    <td>Reşat Nuri Güntekin</td>
+    <td>175 Sayfa</td>
+    <td>İnkilap</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Tanrı Misafiri</td>
+    <td>Reşat Nuri Güntekin</td>
+    <td>198 Sayfa</td>
+    <td>İnkilap</td>
+    <td>8</td>
+</tr>
+
+<tr>
+    <td>Arılar Ordusu</td>
+    <td>Bekir Yıldız</td>
+    <td>122 Sayfa</td>
+    <td>Özyürek</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Yankılı Kayalar</td>
+    <td>Yılmaz Boyunağa</td>
+    <td>98 Sayfa</td>
+    <td>Genç Yimaş</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>Yürekdede ile Padişah</td>
+    <td>Cahit Zarifoğlu</td>
+    <td>163 Sayfa</td>
+    <td>Beyan</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Serçe Kuş</td>
+    <td>Cahit Zarifoğlu</td>
+    <td>123 Sayfa</td>
+    <td>Beyan</td>
+    <td>8</td>
+</tr>
+
+<tr>
+    <td>Aganta Burina Burinata</td>
+    <td>Halikarnas Balıkçısı</td>
+    <td>192 Sayfa</td>
+    <td>Bilgi</td>
+    <td>9</td>
+</tr>
+
+<tr>
+    <td>Ayaşlı ile Kiracıları</td>
+    <td>Memduh Şevket Esendal</td>
+    <td>253 Sayfa</td>
+    <td>Bilgi</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Babalar ve Oğullar</td>
+    <td>Turgenyev</td>
+    <td>264 Sayfa</td>
+    <td>Turkuvaz</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Beyaz Diş</td>
+    <td>Jack London</td>
+    <td>192 Sayfa</td>
+    <td>Turkuvaz</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Beyaz Gemi</td>
+    <td>Cengiz Aytmatov</td>
+    <td>152 Sayfa</td>
+    <td>Ketebe</td>
+    <td>7</td>
+</tr>
+
+<tr>
+    <td>Dokuzuncu Hariciye Koğuşu</td>
+    <td>Peyami Safa</td>
+    <td>112 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Don Kişot</td>
+    <td>Cervantes</td>
+    <td>292 Sayfa</td>
+    <td>Yapı Kredi</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Drina Köprüsü</td>
+    <td>Ivo Andriç</td>
+    <td>354 Sayfa</td>
+    <td>İletişim</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Drina’da Son Gün</td>
+    <td>Faik Baysal</td>
+    <td>170 Sayfa</td>
+    <td>Nemesis</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Esir Şehrin İnsanları</td>
+    <td>Kemal Tahir</td>
+    <td>244 Sayfa</td>
+    <td>İthaki</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Eskicinin Oğulları</td>
+    <td>Orhan Kemal</td>
+    <td>378 Sayfa</td>
+    <td>Bilgi</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Fareler ve İnsanlar</td>
+    <td>John Steinbeck</td>
+    <td>111 Sayfa</td>
+    <td>Sel Yayınları</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Fatih-Harbiye</td>
+    <td>Peyami Safa</td>
+    <td>128 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Gün Olur Asra Bedel</td>
+    <td>Cengiz Aytmatov</td>
+    <td>413 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>İbrahim Efendi Konağı</td>
+    <td>Samiha Ayverdi</td>
+    <td>256 Sayfa</td>
+    <td>Kubbealtı Neşriyatı</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>İki Şehrin Hikayesi</td>
+    <td>Charles Dickens</td>
+    <td>224 Sayfa</td>
+    <td>Turkuvaz Kitap</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Kalpaklılar</td>
+    <td>Samim Kocagöz</td>
+    <td>189 Sayfa</td>
+    <td>Literatür</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Kaplumbağalar</td>
+    <td>Fakir Baykurt</td>
+    <td>268 Sayfa</td>
+    <td>Literatür</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Karartma Geceleri</td>
+    <td>Rıfat Ilgaz</td>
+    <td>314 Sayfa</td>
+    <td>Çınar</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>Kayıp Aranıyor</td>
+    <td>Sait Faik Abasıyanık</td>
+    <td>112 Sayfa</td>
+    <td>Kültür</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Kiralık Konak</td>
+    <td>Yakup Kadri Karaosmanoğlu</td>
+    <td>232 Sayfa</td>
+    <td>İletişim</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Kuyruklu Yıldız Altında Bir İzdivaç</td>
+    <td>Hüseyin Rahmi Gürpınar</td>
+    <td>208 Sayfa</td>
+    <td>İthaki</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Kuyucaklı Yusuf </td>
+    <td>Sabahattin Ali</td>
+    <td>178 Sayfa</td>
+    <td>Yapı Kredi</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Küçük Ağa</td>
+    <td>Tarık Buğra</td>
+    <td>202 Sayfa</td>
+    <td>İletişim</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Madam Bovary</td>
+    <td>Flaubert</td>
+    <td>290 Sayfa</td>
+    <td>Can</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Aşk-ı Memnu</td>
+    <td>Halit Ziya Uşaklıgil</td>
+    <td>178 Sayfa</td>
+    <td>Yapı Kredi</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Mor Salkımlı Ev</td>
+    <td>Halide Edip Adıvar</td>
+    <td>312 Sayfa</td>
+    <td>Can</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Onlar da İnsandı</td>
+    <td>Cengiz Dağcı</td>
+    <td>494 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>Ölü Canlar</td>
+    <td>Gogol</td>
+    <td>278 Sayfa</td>
+    <td>Dorlion</td>
+    <td>8</td>
+</tr>
+
+<tr>
+    <td>Robinson Crusoe</td>
+    <td>Daniel Defoe</td>
+    <td>187 Sayfa</td>
+    <td>Turkuvaz</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>Sahnenin Dışındakiler</td>
+    <td>Ahmet Hamdi Tanpınar</td>
+    <td>343 Sayfa</td>
+    <td>Dergah</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Savaş ve Barış</td>
+    <td>Tolstoy</td>
+    <td>488 Sayfa</td>
+    <td>Yediveren</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Sefiller</td>
+    <td>Victor Hugo</td>
+    <td>140 Sayfa</td>
+    <td>Can Çocuk</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Sergüzeşt</td>
+    <td>Samipaşazade Sezai</td>
+    <td>76 Sayfa</td>
+    <td>Panama</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Ses ve Öfke</td>
+    <td>William Faulkner</td>
+    <td>304 Sayfa</td>
+    <td>Yapı Kredi</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Sinekli Bakkal</td>
+    <td>Halide Edip Adıvar</td>
+    <td>424 Sayfa</td>
+    <td>Can</td>
+    <td>10</td>
+</tr>
+
+<tr>
+    <td>Sokakta</td>
+    <td>Bahattin Özkişi</td>
+    <td>144 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>Suç ve Ceza</td>
+    <td>Dostoyevski</td>
+    <td>636 Sayfa</td>
+    <td>Puslu</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Tütün Zamanı</td>
+    <td>Necati Cumalı</td>
+    <td>256 Sayfa</td>
+    <td>Cumhuriyet</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>Vadideki Zambak</td>
+    <td>Balzac</td>
+    <td>328 Sayfa</td>
+    <td>Kültür</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>Yaban</td>
+    <td>Yakup Kadri Karaosmanoğlu</td>
+    <td>214 Sayfa</td>
+    <td>İletişim</td>
+    <td>8</td>
+</tr>
+ <tr>
+    <td>Yaşar Ne Yaşar Ne Yaşamaz</td>
+    <td>Aziz Nesin</td>
+    <td>254 Sayfa</td>
+    <td>Nesin</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>Yedinci Gün</td>
+    <td>Orhan Hançerlioğlu</td>
+    <td>112 Sayfa</td>
+    <td>Remzi</td>
+    <td>4</td>
+</tr>
+<tr>
+    <td>Yılkı Atı</td>
+    <td>Abbas Sayar</td>
+    <td>65 Sayfa</td>
+    <td>Ötüken Neşriyat</td>
+    <td>7</td>
+</tr>
+</table>
+
+
+</body>
+</html>
+

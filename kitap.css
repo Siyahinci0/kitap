@@ -1,0 +1,38 @@
+/* table {
+
+background-image: url("Liverpool_FC.svg.png");
+
+} */
+
+/* table {
+
+  background-color: purple;
+} */
+
+
+
+table, th, td {
+    border:2px solid black;
+  }
+  
+  
+  th {
+  background-color: yellow;
+  }
+
+
+tr:nth-child(even) {background-color: #5df516;}
+tr:nth-child(odd) {background-color: #a1c7e6;}
+
+#islem { 
+
+margin-top: 10px;
+margin-left: 50px;
+}
+
+
+#islemsonucu {
+
+    font-size: 20px;
+    color: red;
+}
